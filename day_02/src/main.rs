@@ -55,7 +55,6 @@ fn do_part_2(contents: &str) -> (String, Duration) {
     let start = Instant::now();
     let mut box_id = String::new();
     let mut content_index = 0;
-    println!("Total: {}", contents.len());
     for line in contents.lines() {
         content_index += line.len() + 2; 
         // The +2 is for the newline character that is trimmed by lines().
