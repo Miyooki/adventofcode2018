@@ -1,5 +1,5 @@
 // Day 2: Inventory Management System
-// Date: April 19th
+// Date: April 19th, 2019
 // Author: Yuki
 
 use std:: {

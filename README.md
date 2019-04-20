@@ -3,6 +3,11 @@
 ## Made with Rust 1.3x
 I wanted to try to learn Rust and thought it'd be fun to apply it to the challenges from AOC.
 
+## Testing
+Run this command in the folder you want to test:
+```
+$ cargo run --release
+```
 ## Benchmark Tests 
 #### Using a i7-6700HQ CPU, 16GB of 2133MHz RAM, and a PM951 512GB for storage
 ### Optimizations:

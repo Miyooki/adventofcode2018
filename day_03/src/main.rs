@@ -1,5 +1,5 @@
 // Day 3: No Matter How You Slice It
-// Date: April 19th
+// Date: April 19th, 2019
 // Author: Yuki
 
 use std:: {

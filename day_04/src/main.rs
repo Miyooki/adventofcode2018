@@ -1,5 +1,5 @@
 // Day 4: Repose Record
-// Date: April 20th
+// Date: April 20th, 2019
 // Author: Yuki
 
 use std:: {
@@ -29,5 +29,5 @@ fn do_part_1() {
 }
 
 fn do_part_2() {
-    
+
 }
