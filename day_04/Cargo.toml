@@ -1,0 +1,7 @@
+[package]
+name = "day_04"
+version = "0.1.0"
+authors = ["Yuki <35814354+Miyooki@users.noreply.github.com>"]
+edition = "2018"
+
+[dependencies]

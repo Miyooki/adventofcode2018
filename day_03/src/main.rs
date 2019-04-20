@@ -22,7 +22,7 @@ fn main() {
     println!("Part 1: The amount of overlap is {}\nBenchmark: {:.3?}",
     result_1, benchmark_1);
     println!("-----------------------------------------------");
-    println!("Part 2: The correct box ID is {}\nBenchmark: {:.3?}",
+    println!("Part 2: The non-overlapping claim ID is {}\nBenchmark: {:.3?}",
     result_2, benchmark_2);
 }
 
@@ -59,13 +59,14 @@ fn do_part_1(contents: &str) -> (u64, Duration) {
 
 fn do_part_2(contents: &str) -> (u16, Duration) {
      // Pretty much reused the code from Part 1, but now with claim IDs implemented.
+     // I decided to use a HashMap to set claim ID to be overlapped or not.
     let start = Instant::now();
     let mut fabric = vec![[0 as u16; WIDTH]; HEIGHT].into_boxed_slice();
     let mut claim_id = 0;
     let mut overlap_set = HashMap::new();
     for line in contents.lines() {
         let tokenize: Vec<&str> = line.split(|c| c == ' ' || c == '#' || c == ':').collect();
-        // Array of 6 elements now, the 1st and 4th is a blank string due to '#' and ':' chars.
+        // Array of 6 elements now, the 1st and 4th are blanks string due to '#' and ':' chars.
         claim_id = tokenize[1].parse::<u16>().unwrap();
         let position: Vec<usize> = tokenize[3].
             split(',').map(|s| s.parse::<usize>().unwrap()).collect();

@@ -1,6 +1,6 @@
 # Advent Of Code 2018
 
-## Made with Rust 1.xx
+## Made with Rust 1.3x
 I wanted to try to learn Rust and thought it'd be fun to apply it to the challenges from AOC.
 
 ## Benchmark Tests 
@@ -24,8 +24,12 @@ Benchmark: 1.248ms
 ### Day 3:
 ```
 Part 1: The amount of overlap is 118858
-Benchmark: 4.926ms
+Benchmark: 3.911ms
 -----------------------------------------------
-Part 2: The correct box ID is 1100
-Benchmark: 12.527ms
+Part 2: The non-overlapping claim ID is 1100
+Benchmark: 12.319ms
+```
+### Day 4:
+```
+
 ```
