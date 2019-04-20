@@ -21,3 +21,11 @@ Benchmark: 376.494µs
 Part 2: The correct box ID is hhvsdkatysmiqjxunezgwcdpr
 Benchmark: 1.248ms
 ```
+### Day 3:
+```
+Part 1: The amount of overlap is 118858
+Benchmark: 4.926ms
+-----------------------------------------------
+Part 2: The correct box ID is 1100
+Benchmark: 12.527ms
+```
