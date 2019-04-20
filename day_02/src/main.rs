@@ -24,7 +24,7 @@ fn main() {
     result_2, benchmark_2);
 }
 
-fn do_part_1(contents: &str) -> (u64, Duration) {
+fn do_part_1(contents: &str) -> (u32, Duration) {
     let start = Instant::now();
     let mut candidate_check = HashMap::new();
     let (mut doubles_count, mut triples_count) = (0, 0);

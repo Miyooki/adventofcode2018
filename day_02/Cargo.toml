@@ -5,3 +5,7 @@ authors = ["Yuki <35814354+Miyooki@users.noreply.github.com>"]
 edition = "2018"
 
 [dependencies]
+
+[profile.release]
+lto = true
+codegen-units = 1
